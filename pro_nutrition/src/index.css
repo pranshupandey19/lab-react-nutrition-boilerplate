@@ -1,0 +1,59 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body{
+  text-align: center;
+}
+
+.foodbox-main{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 90%;
+  margin: 40px auto;
+}
+.foodbox-main-left{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 40%;
+  padding: 10px;
+  background: linear-gradient(90deg, #5077e7 0%, #8f961b 100%); 
+}
+.foodbox-main-left img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.foodbox-main-right{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 30%;
+  background: linear-gradient(90deg, #26a7a2 0%, #0a456e 100%); 
+  padding: 30px;
+}
+.add{
+  width: 40px;
+  height: 40px;
+  font-size: x-large;
+  cursor: pointer;
+}
+.reset{
+
+  font-size: large;
+  cursor: pointer;
+  border: none;
+  background: linear-gradient(90deg, #fa292a 0%, #39e1d8 100%); 
+}
